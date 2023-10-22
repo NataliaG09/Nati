@@ -68,7 +68,7 @@
     .articulo {
         /* las imagenes tambien se centran con text-align */
         text-align: center;
-        margin-left: 30px;
+        margin-left: 9px;
         width: 400px;
         height: 400px;
         background-color: aliceblue;
