@@ -1,87 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        
 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+<head>
+    <!--habilita acentos-->
+    <meta charset="UTF-8">
+    <!--Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
 
-        <link rel="stylesheet" href="../css/styles -sprint1.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap"
+        rel="stylesheet">
 
-        <title> Nachis </title>
-    </head>
-    <body>
-        <nav>
-            <img class="logo" src="../images/Nachis logo.jpeg" alt="logo-nachis">
-            <ul class="lista">
-                <li><a href="./sprint1.html"> Inicio  </a></li>
-                <li><a href="../Html/nosotros.html" target="_blank"> Nosotros </a></li>
-                <li><a href="./Productos.html" target="_blank"> Productos </a></li>
-                <li><a href="./Preguntas frecuentes.html" target="_blank"> Preguntas frecuentes  </a></li>
-            </ul>
-        </nav>
 
-        <div class="container">
-            <div class="productos">
-                <div class="articulo">
-                    <img class="art-img" src="../images/Productos/alm y cuellito 1.jpeg" alt="Almohada-cuellito1">
-                    <p> Almohada con cuellito </p>
-                    <p> $2000 </p>
-                    <button class="btn-art"> Agregar </button>
-                </div>
-                <div class="articulo">
-                    <img class="art-img" src="../images/Productos/alm y cuellito 2.jpeg" alt="Alm-cuell2">
-                    <p> Almohada con cuellito </p>
-                    <p> $2000  </p>
-                    <button class="btn-art"> Agregar </button>
-                </div>
-                <div class="articulo">
-                    <img class="art-img" src="../images/Productos/conjunto1.jpeg" alt="conjunto1">
-                    <p> Conjunto varón </p>
-                    <p> $3000 </p>
-                    <button class="btn-art"> Agregar </button>
-                </div>
-         
+    <link rel="stylesheet" href="../css/styles -sprint1.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="../resors/SM1/Style.css">
+    <title> Nachis </title>
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="../images/Nachis logo.jpeg" alt="logo-nachis">
+        <ul class="lista">
+            <li><img src="../images/cloud_2.png" alt="icono"> <a href="./sprint1.html">Inicio</a></li>
+            <li><img src="../images/cloud_2.png" alt="icono"> <a href="./nosotros.html">Nosotros</a></li>
+            <li><img src="../images/cloud_2.png" alt="icono"> <a href="./Productos.html">Productos</a></li>
+            <li><img src="../images/cloud_2.png" alt="icono"> <a href="./Preguntas frecuentes.html">Preguntas
+                    frecuentes</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="productos">
+            <div class="articulo">
+                <img class="art-img" src="../images/Productos/alm y cuellito 1.jpeg" alt="Almohada-cuellito1">
+                <p> Almohada con cuellito </p>
+                <p> $2000 </p>
+                <button class="btn-art"> Agregar </button>
             </div>
-            <div class="productos">
-                <div class="articulo">
-                    <img class="art-img" src="../images/Productos/tirante con moño.jpeg" alt="tirante_con_moño">
-                    <p> Tirante con moño </p>
-                    <p> $1000 </p>
-                    <button class="btn-art"> Agregar </button>
-                </div>
-                <div class="articulo">
-                    <img class="art-img" src="../images/Productos/conjunto3.jpeg" alt="Conjunto3">
-                    <p> Conjunto varón </p>
-                    <p> $3000 </p>
-                    <button class="btn-art"> Agregar </button>
-                </div>
-                <div class="articulo">
-                    <img class="art-img" src="../images/Productos/Vincha.jpeg" alt="Vincha">
-                    <p> Vincha. Diversos colores </p>
-                    <p> $1000 </p>
-                    <button class="btn-art"> Agregar </button>
-                </div>
-                
+            <div class="articulo">
+                <img class="art-img" src="../images/Productos/alm y cuellito 2.jpeg" alt="Alm-cuell2">
+                <p> Almohada con cuellito </p>
+                <p> $2000 </p>
+                <button class="btn-art"> Agregar </button>
             </div>
+
         </div>
-        <section class="newsletter">
-            <img src="../images/Nachis logo.jpeg" alt="logo-nachis">
-            <p>
-                Suscribite a nuestro newsletter de Nachis bebés.
-                <br>
-                
-                    ¡Sé el primero en recibir nuestras ofertas!
 
-            </p>
-        </section>
+        <div class="productos">
 
-        <footer>
+            <div class="articulo">
+                <img class="art-img" src="../images/Productos/conjunto1.jpeg" alt="conjunto1">
+                <p> Conjunto varón </p>
+                <p> $3000 </p>
+                <button class="btn-art"> Agregar </button>
+            </div>
+            <div class="articulo">
+                <img class="art-img" src="../images/Productos/Vincha.jpeg" alt="Vincha">
+                <p> Vincha. Diversos colores </p>
+                <p> $1000 </p>
+                <button class="btn-art"> Agregar </button>
+            </div>
+
+        </div>
+
+
+        <div class="productos">
+            <div class="articulo">
+                <img class="art-img" src="../images/Productos/tirante con moño.jpeg" alt="tirante_con_moño">
+                <p> Tirante con moño </p>
+                <p> $1000 </p>
+                <button class="btn-art"> Agregar </button>
+            </div>
+            <div class="articulo">
+                <img class="art-img" src="../images/Productos/conjunto3.jpeg" alt="Conjunto3">
+                <p> Conjunto varón </p>
+                <p> $3000 </p>
+                <button class="btn-art"> Agregar </button>
+            </div>
+
+        </div>
+    </div>
+    <section class="newsletter">
+        <img src="../images/Nachis logo.jpeg" alt="logo-nachis">
+        <p>
+            Suscribite a nuestro newsletter de Nachis bebés.
+            <br>
+
+            ¡Sé el primero en recibir nuestras ofertas!
+
+        </p>
+    </section>
+    <div class="container3">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="./sprint1.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+                <li class="nav-item"><a href="./nosotros.html" class="nav-link px-2 text-body-secondary">Nosotros</a>
+                </li>
+                <li class="nav-item"><a href="./Productos.html" class="nav-link px-2 text-body-secondary">Productos</a>
+                </li>
+                <li class="nav-item"><a href="./Preguntas frecuentes.html"
+                        class="nav-link px-2 text-body-secondary">Preguntas
+                        frecuentes</a></li>
+            </ul>
             <h3> Copyright &copy;<a href="#"> Nachis bebés 2023 </a> todos los derechos reservados.</h3>
         </footer>
+    </div>
 
-    </body>
+    <div class="icons">
+        <a href="#" class="icon icon--instagram">
+            <i class="ri-instagram-line"></i>
+        </a>
+        <a href="#" class="icon icon--twitter">
+            <i class="ri-twitter-line"></i>
+        </a>
+        <a href="#" class="icon icon--linkedin">
+            <i class="ri-linkedin-line"></i>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
