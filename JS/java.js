@@ -11,8 +11,8 @@ let provincia = prompt("Ingrese su Provincia y descubra los descuentos disponibl
 const ProvDescuentos = ["San Juan", "Buenos Aires", "La Rioja"];
 
 //Se hablilita la detección en mínusculas
-const encontrado = ProvDescuentos.find (elemento=>elemento=provincia);
-//console.log(encontrado);
+const encontrado = ProvDescuentos.find (elemento=>elemento==provincia);
+console.log(encontrado);
 
 //USO DE CONDICIONALES
 if (encontrado==undefined){
